@@ -88,5 +88,6 @@ HTML&CSS Part 3 - advanced HTML&CSS
   - 免费图片资源
     - https://unsplash.com/
     - https://www.pexels.com/
+    - https://favicon.io/
 
 ## 课程作业
