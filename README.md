@@ -113,6 +113,7 @@
     - https://www.w3schools.com/colors/colors_picker.asp
     - https://www.colorzilla.com/gradient-editor/
     - https://htmlcolorcodes.com/
+    - https://coolors.co/
 
   - CSS 选择器
 
@@ -134,7 +135,7 @@
   - CSS 小工具
 
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    - https://css-tricks.com/snippets/css/complete-guide-grid/
+    - https://css-tricks.com/snippets/csscomplete-guide-grid/
     - https://cssarrowplease.com/
 
   - Visual Studio Code Extension
@@ -161,7 +162,8 @@
     - https://cssgradient.io/
     - https://css3generator.com/
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    - https://css-tricks.com/snippets/css/complete-guide-grid/
+    - https://css-tricks.com/snippets/css/-
+    - complete-guide-grid/
 
   - 不同浏览器的兼容性
 
