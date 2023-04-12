@@ -1,0 +1,16 @@
+.parent {
+  background-color: bisque;
+    height: 200vh;
+}
+
+.child-one {
+  background-color: red;
+}
+
+.child-two {
+  background-color: gold
+}
+
+.child-three {
+  background-color: aquamarine;
+}

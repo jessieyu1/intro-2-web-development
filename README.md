@@ -106,11 +106,13 @@
     - https://unsplash.com/
     - https://www.pexels.com/
     - https://favicon.io/
+    - https://icons8.com/
 
   - CSS 颜色选择器
 
     - https://www.w3schools.com/colors/colors_picker.asp
     - https://www.colorzilla.com/gradient-editor/
+    - https://htmlcolorcodes.com/
 
   - CSS 选择器
 
@@ -130,9 +132,53 @@
     - https://www.freeformatter.com/css-beautifier.html
 
   - CSS 小工具
+
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     - https://css-tricks.com/snippets/css/complete-guide-grid/
     - https://cssarrowplease.com/
+
+  - Visual Studio Code Extension
+
+    - Live server
+    - Prettier
+    - CSS Peek
+    - HTML CSS Support
+    - HTML Snippets
+    - HTML Boilerplate
+    - Auto Rename Tag
+    - Auto Close Tag
+    - Auto Comment Blocks
+    - Auto Import
+    - Image preview
+    - Rainbow indent
+    - Color Highlight
+    - Color Info
+    - Color Picker
+    - Colorize
+
+  - CSS 代码生成器
+
+    - https://cssgradient.io/
+    - https://css3generator.com/
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - https://css-tricks.com/snippets/css/complete-guide-grid/
+
+  - 不同浏览器的兼容性
+
+    - https://caniuse.com/
+
+  - 网页设计工具
+
+    - Canva
+    - Wix
+
+  - HTML & CSS 练习工具
+
+    - w3schools
+    - freeCodeCamp
+    - Codecademy
+    - CodePen
+    - CodeSandbox
 
 ## 课程作业
 
