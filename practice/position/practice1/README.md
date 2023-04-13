@@ -7,3 +7,15 @@
 This task covers understanding of `position: relative` and `position: absolute` and how they relate to each other in terms of relative positioning creating a new positioning context.
 
 ```
+
+```
+.container {
+  position: relative;
+}
+
+.target {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+```

@@ -4,16 +4,42 @@
 
 <head>
     <title>auth page</title>
+    <style>
+        .header {
+            width: 80%;
+            height: 100vh;
+            background-color: aquamarine;
+            border: 1px solid black;
+            border-radius: 10px;
+            position: relative;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header_logo {
+            max-width: 30%;
+            border-radius: 50%;
+            width: 70%;
+            position: absolute;
+        }
+
+        .header_search_form {
+            width: 30%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
 </head>
 
 <body>
     <header class="header">
-        <img class="header_logo" />
+        <img class="header_logo" src="./logo.png" alt="logo" />
         <form class="header_search_form">
             <label class="header_search_form_namelabel" for="name">Name:</label>
-            <input class="header_search_form_nameinput" type="input" />
+            <input class="header_search_form_nameinput" type="input" placeholder="Enter your name" />
             <label class="header_search_form_pwlabel" for="pw">password:</label>
-            <input class="header_search_form_pwinput" type="input" />
+            <input class="header_search_form_pwinput" type="input" placeholder="Enter your password" />
             <button class="header_search_form_submit">
                 submit
             </button>
