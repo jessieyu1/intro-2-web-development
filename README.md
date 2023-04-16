@@ -185,6 +185,19 @@
     - https://cssgridgarden.com/
     - https://codepip.com/games/
 
+  - fonts
+
+    - https://fonts.google.com/
+    - https://fonts.adobe.com/
+    - https://www.fontsquirrel.com/
+    - https://www.dafont.com/
+
+  - flexbox
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - https://flexboxfroggy.com/
+    - https://www.flexboxdefense.com/
+    - https://www.flexboxpatterns.com/home
+
 ## 课程作业
 
 - Tutorial 1
