@@ -5,7 +5,9 @@
 /* Header */
 
 .header {
-    width: 50%;
+    --bg: #ccc;
+    --font-size: 1.5rem;
+    width: clamp(50%, 1000px, 100%);
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -14,12 +16,11 @@
 .header_navbar {
     display: flex;
     margin: 1rem;
-
 }
 .header_navbar a {
     text-decoration: none;
-    color: #000;
-    font-size: 1.5rem;
+    color: black;
+    font-size: clamp(1rem, 2vw, var(--font-size));
     font-weight: bold;
     margin: 1rem;
 }
@@ -47,6 +48,7 @@
 .main_title {
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
 }
 .main_title_topic {
     border-left: 1px solid black;
@@ -74,4 +76,83 @@
     height: 100%;
     object-fit: cover;
     filter:brightness(300%);
+}
+
+.main_blog {
+    margin-right: 3rem;
+}
+
+.main_blog_article_p1::first-letter {
+    initial-letter: 4;
+}
+
+.main_blog_article_p2 {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to left, #ccc 50%, transparent 50%) 100% 1;
+    padding-bottom: 1rem;
+}
+
+/* responsive */
+
+@media only screen and (max-width:1200px) {
+    .main_title {
+        display: none;
+    }
+    .main_profile {
+        display: none;
+    }
+    .main_blog {
+        margin-right: 2rem;
+    }
+    .header {
+
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* button */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
 }
